@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Book Library</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Your Book Library</h1>
+            <p>Fill the form below to add a new book</p>
+
+            <form action="" method="">
+                <div class="form-group">
+                    <label for="title">Book Title</label>
+                    <input type="text" name="book-title" id="book" class="book-title" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="author">Book Author</label>
+                    <input type="text" name="book-author" id="author" class="book-author" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pages">Number of Pages</label>
+                    <input type="number" name="book-page" id="pages" class="book-page" >
+                </div>
+
+                <div class="form-group">
+                    <div>
+                        <label>Have You Read The Book?</label>
+            
+                        <label for="yes">
+                            <input type="radio" name="has-read" id="yes" value="yes" checked>
+                            Yes
+                        </label>
+                        <label for="no">
+                            <input type="radio" name="has-read" id="no" value="no">
+                            No
+                        </label>
+                    </div>
+                </div>
+                <button class="add-book">ADD BOOK</button>
+            </form>
+        </div>
+
+        <div class="right">
+            <input type="search" class="filter" placeholder="Find book...">
+
+            <div class="book-table">
+                <table>
+
+                    <caption>YOUR BOOKS</caption>
+
+                    <colgroup>
+                        <col style="width:280px">
+                        <col style="width:230px">
+                        <col style="width:100px">
+                        <col style="width:130px">
+                        <col style="width:100px">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>TITLE</th>
+                            <th>AUTHOR</th>
+                            <th>PAGES</th>
+                            <th>READ STATUS</th>
+                            <th>OPTIONS</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <table class="list">
+
+                    <colgroup>
+                        <col style="width:30%">
+                        <col style="width:25%">
+                        <col style="width:10%">
+                        <col style="width:13%">
+                        <col style="width:10%">
+                    </colgroup>
+
+                    <tbody>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+                        <tr class="tr">
+                            <th> afafd </th>
+                            <td> asdf </td>
+                            <td> 11 </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                        </tr>
+
+                        <tr class="tr">
+                            <th> fhakj fas odhnf adsfh jdskafhldoah df</th>
+                            <td> asdf ASFLKDJH ALFDASHNK HSDA FLKNK </td>
+                            <td> 11ADS </td>
+                            <td> <input type="checkbox" class="read-status" checked=""> </td>
+                            <td> <button class="delete-btn">Delete</button> </td>
+                            </tr>
+                    </tbody>
+                </table>
+
+                <div class="book-list"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
